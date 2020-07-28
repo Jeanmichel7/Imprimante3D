@@ -1,0 +1,159 @@
+body {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+h1 {
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px black;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.underline {
+  height: 3px;
+  width: 12%;
+  background-color: #4d4d4d;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+/* ***************NAVIGATION ************** */
+.bg-dark {
+  background-color: #464646 !important;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.nav-item {
+  font-size: 1.4rem;
+  margin-left: 30px;
+  background-color: #6d6d6d;
+  padding: 3px 20px 3px;
+  margin-top: 0;
+  border-radius: 5px;
+}
+.nav-item:hover {
+  background-color: #818181;
+}
+
+/* MAIN */
+.image-presentation {
+  background-image: url("../img/imprimante-3d.png");
+  height: 60vw;
+  max-height: 450px;
+  background-size: cover;
+}
+
+/* Modelisation 3D */
+.image-ender {
+  height: 180px;
+  margin: 30px;
+}
+
+.modelisation {
+  height: 200px;
+}
+
+.img-modelise {
+  text-align: center;
+}
+
+.imprime {
+  height: 200px;
+  margin: 5px;
+}
+
+.img-imprime {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.bordure {
+  border: #6b6b6b solid 1px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #818181;
+  background-color: #d6d6d6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #212121;
+  color: #e4e4e4;
+}
+footer a {
+  color: #e2e2e2;
+}
+footer ul li {
+  list-style: none;
+}
+footer .underline {
+  background-color: #e2e2e2;
+}
+footer .mentions {
+  border-top: #727272 0.1px dashed;
+}
+footer .mentions p {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 10px;
+}
+footer .underlineh4 {
+  border-bottom: white 2px dashed;
+  width: 50%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERRIES */
+@media screen and (max-width: 350px) {
+  .navbar {
+    height: 60px;
+  }
+
+  .navbar-brand {
+    padding: auto;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 280px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .nav-item {
+    font-size: 1.4rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
